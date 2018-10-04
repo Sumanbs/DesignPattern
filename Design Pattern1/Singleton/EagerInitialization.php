@@ -1,7 +1,7 @@
 <?php
 class Connection
 {
-    static $instance = null;
+
     private function __construct()
     {
         echo "New object created";

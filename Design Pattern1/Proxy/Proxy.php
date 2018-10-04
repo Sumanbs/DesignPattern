@@ -1,7 +1,6 @@
 <?php
 interface CommandExecutor
 {
-
     public function runCommand($cmd);
 }
 class CommandExecutorImpl implements CommandExecutor
